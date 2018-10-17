@@ -17,17 +17,23 @@ public class mapper extends Mapper<LongWritable, Text, Text, IntWritable> {
             String tweet = status.getText().toUpperCase();
             if (tweet.contains("TRUMP")){
                 context.write(new Text("TRUMP"), new IntWritable(1));
-            } else if (tweet.contains("FLU")){
+            }
+            if (tweet.contains("FLU")){
                 context.write(new Text("FLU"), new IntWritable(1));
-            } else if (tweet.contains("ZIKA")){
+            }
+            if (tweet.contains("ZIKA")){
                 context.write(new Text("ZIKA"), new IntWritable(1));
-            } else if (tweet.contains("DIARRHEA")){
+            }
+            if (tweet.contains("DIARRHEA")){
                 context.write(new Text("DIARRHEA"), new IntWritable(1));
-            } else if (tweet.contains("EBOLA")){
+            }
+            if (tweet.contains("EBOLA")){
                 context.write(new Text("EBOLA"), new IntWritable(1));
-            } else if (tweet.contains("HEADACHE")){
+            }
+            if (tweet.contains("HEADACHE")){
                 context.write(new Text("HEADACHE"), new IntWritable(1));
-            } else if (tweet.contains("MEASLES")){
+            }
+            if (tweet.contains("MEASLES")){
                 context.write(new Text("MEASLES"), new IntWritable(1));
             }
         }
