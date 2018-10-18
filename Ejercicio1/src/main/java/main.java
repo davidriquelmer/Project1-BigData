@@ -13,7 +13,7 @@ public class main {
             System.exit(-1);
         }
         Configuration conf = new Configuration();
-        conf.set("mapred.textoutputformat.separator", ",");
+        conf.set("mapred.textoutputformat.separatorText", ",");
         Job job = new Job();
         job.setJarByClass(main.class);
         job.setJobName("Ejercicio1");
