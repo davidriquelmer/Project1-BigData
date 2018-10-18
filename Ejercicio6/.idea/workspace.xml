@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="96d43e0e-c9da-4020-960d-c5b5b0086417" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Ejercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio1/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio1/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/Graphics 3DJS/d3-scale-radial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/Graphics 3DJS/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio1/Graphics 3DJS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio1/Graphics 3DJS/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -143,6 +145,7 @@
     <session id="-2006995381">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -224,7 +227,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -298,8 +301,7 @@
     <option name="totallyTimeSpent" value="5369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28008753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

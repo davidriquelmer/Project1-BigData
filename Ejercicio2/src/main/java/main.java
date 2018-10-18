@@ -8,12 +8,12 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class main {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.err.println("Usage: TwitterKeyWorkDriver <input path> <output path>");
+            System.err.println("Usage: Ejercicio2 <input path> <output path>");
             System.exit(-1);
         }
         Job job = new Job();
         job.setJarByClass(main.class);
-        job.setJobName("Count TweetsbyUsr");
+        job.setJobName("Ejercicio2");
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
